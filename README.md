@@ -11,6 +11,11 @@
 - P04_PagaTrabajador
 
 ## Actividad 2
+- p05_OperacionesMatematicas
+- p06_promedioCalificaciones
+- p07_OperadoresAsignacion
+- p08_FuncionesTrigonometricas
+- p09_DividirEnCifras
 
 
 ## Actividad 3

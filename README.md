@@ -18,6 +18,15 @@
 - p09_DividirEnCifras
 
 
+## practica 1 
+- p10_HipotenusaTriangulo
+- p11_CalcularAngulo
+- p12_ConvertirEnTemperatura
+- p13_VolumenCilindro
+- p14_CalcularTiempo
+- p15_ConvertirADolares
+
+
 ## Actividad 3
 
 

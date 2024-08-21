@@ -1,7 +1,7 @@
 
 
 # PROGRAMACION ORIENTADA A OBJETOS Y LABORATORIO I
-- Nombre: Brayan Alexis Bermudez morales
+- Nombre: Brayan Alexis Bermudez Morales
 - Email: brayanelpro56@gmail.com
 
 ## Actividad 1

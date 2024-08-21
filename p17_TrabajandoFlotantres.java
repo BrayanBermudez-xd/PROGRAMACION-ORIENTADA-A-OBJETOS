@@ -14,7 +14,7 @@ public class p17_TrabajandoFlotantres {
         System.out.print("\033[H\033[2J"); System.out.flush();
 
         System.out.println("\nuso de String.format para formateo de numero flotantes :\n");
-        System.out.println(String.format("num1 y  num2 en formato flotante                        :%f   -   %f",num1, num2 ));
+        System.out.println(String.format("num1 y  num2 en formato flotante                        :%f   -    %f",num1, num2 ));
         System.out.println(String.format("num1 y  num2 en formato flotante con decimales          :%.2f   -   %.3f",num1, num2 ));
         System.out.println(String.format("num1 en formato flotante alineado                       :%10.2f",num1 ));
         System.out.println(String.format("num2 en formato flotante alineado                       :%10.2f",num2 ));

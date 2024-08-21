@@ -13,7 +13,7 @@ public class p18_TrabajandoConstantes {
         System.out.println("\nEn valor de las constantes declaradas es  :");
         System.out.printf("DESCUENTO X 2     :%.2f\n",DESCUENTO * 2);
         System.out.printf("VELOCIDAD / 2    :%.2f\n",VELOCIDADLUZ / 2);
-        System.out.printf("tasa : %.2f \n", TASA);
+        System.out.printf("tasa : %.2f \n",     TASA);
         System.out.printf("separador : %d \n", SEPARADOR);
 
         

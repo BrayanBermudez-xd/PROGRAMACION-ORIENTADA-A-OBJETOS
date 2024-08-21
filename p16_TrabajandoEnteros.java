@@ -14,7 +14,7 @@ public class p16_TrabajandoEnteros {
          System.out.print("\033[H\033[2J"); System.out.flush();
 
          System.out.println("\nuso de String.format para formateo de numero enteros :\n");
-         System.out.println(String.format("num1 en base decimal           :%d",num1));
+         System.out.println(String.format("num1 en base decimal           :%d", num1));
          System.out.println(String.format("num1 en base octal             :%o",num1));
          System.out.println(String.format("num1 en base hexadecimal       :%x",num1));
          System.out.println(String.format("la ganancia anual              :%d",ganancia));

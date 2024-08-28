@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class p36_CompraPizza {
     public static void main(String[] args) {
         char est;
-        float cant, total, descuento;
+        float cant, total, descuento, res;
         
         Scanner obj = new Scanner(System.in);
 
@@ -24,6 +24,7 @@ public class p36_CompraPizza {
         System.out.println("cuantas pizzas quieres ?"); cant = new Scanner(System.in).nextFloat();
 
         est = Character.toUpperCase(obj.next().charAt(0));
+        descuento = (float)0.15;
 
         switch (est) {
             case 'C' : total = 5 * cant ; 
@@ -31,7 +32,10 @@ public class p36_CompraPizza {
                 System.out.println(String.format("el precio es de %f", total));
             }
             if (total > 2000) {
+                res = total * descuento ;
+                System.out.println("como el precio es mayor a 2000 entonces se le aplica el siguiente descuento" + res);
             }
+        
             case 'M' : total = 10 * cant ; 
             if (total < 2000) {
                 System.out.println(String.format("el precio es de %f", total));
@@ -49,6 +53,7 @@ public class p36_CompraPizza {
                 
         
             default:
+            System.out.println("se te enfrian tus chilaquiles xd");
                 break;
         }
         

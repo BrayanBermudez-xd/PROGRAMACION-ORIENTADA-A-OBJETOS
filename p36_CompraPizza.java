@@ -7,55 +7,31 @@ import java.util.Scanner;
 
 public class p36_CompraPizza {
     public static void main(String[] args) {
-        char est;
-        float cant, total, descuento, res;
-        
+        char Tamaño;
+        Float CantCompra, subtotal, descuento, total, cantidad;
         Scanner obj = new Scanner(System.in);
-
+        subtotal = descuento = total = (float) 0;
 
         System.out.print("\033[H\033[2J"); System.out.flush();
+        System.out.println("Elije el tamaño de la pizza");
+        System.out.println("[C]hica     -  $ 5");
+        System.out.println("[M]ediana   -  $10 ");
+        System.out.println("[G]rande    -  $20 ");
+        System.out.print("Elije:");
+        Tamaño = Character.toUpperCase( obj.next().charAt(0) );
+        System.out.print("Elije la cantidad de pizzas: "); cantidad = new Scanner(System.in).nextFloat();
 
-        System.out.println("Elijan el tamaño de la pizza\n");
-        System.out.println(" Estacionamiento [C]hica $5");
-        System.out.println(" Estacionamiento [M]ediana $10");
-        System.out.println(" Estacionamiento [G]rande %20");
-        System.out.print("Elige opción ? "); est =obj.next().charAt(0);
+        switch (Tamaño) {
+            case 'C': subtotal = (cantidad * 5);    break;
+            case 'M': subtotal = (cantidad * 10);   break;   
+            case 'G': subtotal = (cantidad * 20);   break;
+            default: break;}
 
-        System.out.println("cuantas pizzas quieres ?"); cant = new Scanner(System.in).nextFloat();
-
-        est = Character.toUpperCase(obj.next().charAt(0));
-        descuento = (float)0.15;
-
-        switch (est) {
-            case 'C' : total = 5 * cant ; 
-            if (total < 2000) {
-                System.out.println(String.format("el precio es de %f", total));
-            }
-            if (total > 2000) {
-                res = total * descuento ;
-                System.out.println("como el precio es mayor a 2000 entonces se le aplica el siguiente descuento" + res);
-            }
-        
-            case 'M' : total = 10 * cant ; 
-            if (total < 2000) {
-                System.out.println(String.format("el precio es de %f", total));
-
-                        
-            }
-            
-            case 'G' : total = 20 * cant; 
-            if (total < 2000) {
-                System.out.println(String.format("el precio es de %f", total));
-
-           
-            }
-
-                
-        
-            default:
-            System.out.println("se te enfrian tus chilaquiles xd");
-                break;
-        }
-        
+    if (subtotal > 2000){ 
+        descuento = (float) 15.0 ;
+        total = (float) (subtotal - (subtotal * 0.15));
     }
+
+    System.out.printf("\nTamaño de la compra: "+ Tamaño +" \nCantidad de la compra: %.2f pizzas \nSubtotal de la compra: $ %.2f \nDescuento: $ %.2f \nTotal: $ %.2f", cantidad, subtotal, subtotal * 0.15, total);
+}
 }

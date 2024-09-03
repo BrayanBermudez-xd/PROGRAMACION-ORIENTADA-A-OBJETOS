@@ -46,3 +46,17 @@
 - p26_TipoAngulo
 - p27_AceptarEstudiante
 - p28_LeyDeNewton
+
+## Actividad 6
+- p29_Calculadora
+- p30_DiaSemana
+- p31_NumerosRomanos
+- p32_PagoEstacionamiento
+
+## Practica 
+- p33_NumerosConsecutivos
+- p34_NumeroMayor
+- p35_ContinentesMundo
+- p36_CompraPizza
+- p37_CalculoNotas
+- p38_AceptarEstudianteV2

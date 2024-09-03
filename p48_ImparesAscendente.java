@@ -10,23 +10,26 @@ public class p48_ImparesAscendente {
         char resp;
 
         Scanner obj = new Scanner(System.in);
-
-        do {
-            System.out.print("\033[H\033[2J"); System.out.flush();
-            c=1;
-            n=s=0;
-
-            System.out.println("Hasta donde deseas que lleguen los numeros impares  ? ");
+        System.out.println("Hasta donde deseas que lleguen los numeros impares  ? ");
             n = obj.nextInt();
-
-
+            c=1;
+            s=0;
+            System.out.print("\033[H\033[2J"); System.out.flush();
+        do {
             
-        } while (c >= n);
+            
             System.out.printf("%d ",c);
             s += c;
             c += 2;
-            System.out.printf("\nLa suma de los pares hasta %d es %d ",n,s);
+            
 
+            
+
+
+            
+        } while (c <= n);
+            
+        System.out.printf("\nLa suma de los pares hasta %d es %d ",n,s);
     }       
     
 }

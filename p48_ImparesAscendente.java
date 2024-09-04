@@ -2,34 +2,39 @@
 //además deberá imprimirse la suma y el promedio de esos números impares. El proceso debe de poder repetirse
 //hasta que el usuario lo decida.
 
+// p48_ImparesAscendente - imprimir los números impares de forma ascendente desde 1 hasta el número que el usuario decida
+
 import java.util.Scanner;
 
 public class p48_ImparesAscendente {
     public static void main(String[] args) {
-        int c, n, s;
-        char resp;
+        System.out.print("\033[H\033[2J"); System.out.flush();
 
-        Scanner obj = new Scanner(System.in);
-        System.out.println("Hasta donde deseas que lleguen los numeros impares  ? ");
-            n = obj.nextInt();
-            c=1;
-            s=0;
-            System.out.print("\033[H\033[2J"); System.out.flush();
-        do {
-            
-            
-            System.out.printf("%d ",c);
-            s += c;
-            c += 2;
-            
+        int c,n,s,d;
+         char resp;
+         Scanner obj = new Scanner(System.in);
+
+         do {
+
+            c=1; n=d=s=0;
+            System.out.print("Imprime impares de forma ascendente de 1 hasta n\n");
+            System.out.print("Hasta donde deseas los impares? "); n = obj.nextInt();
+            while (c <=n) {
+                System.out.printf("%d ", c);
+                s +=c;
+                c +=2;
+                
+            }
+            System.out.printf("\n La suma de los impares hasta %d es %d ",n,s);
 
             
+            System.out.print("Deseas continuar (S/N)? ");
+            resp = Character.toUpperCase(obj.next().charAt(0));
 
-
-            
-        } while (c <= n);
-            
-        System.out.printf("\nLa suma de los pares hasta %d es %d ",n,s);
-    }       
+         } while (resp != 'N');
+         System.out.println("\nProceso terminado");
+    }
+        
+    
     
 }

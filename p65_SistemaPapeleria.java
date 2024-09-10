@@ -1,5 +1,6 @@
 //p65_Sistema de papeleria
-
+//BRAYAN ALEXIS BERMUDEZ MORALES
+//Escoge copeas de cierto tañano y imrpime cuantas copeas fueron de mas
 
 import java.util.Scanner;
 

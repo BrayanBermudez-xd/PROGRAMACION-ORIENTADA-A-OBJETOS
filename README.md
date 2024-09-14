@@ -95,5 +95,15 @@
 - p63_SumaTerminos1
 - p64_SumaTerminos2
 
+## practica 5
+- p65_SistemaPapeleria.java
+
 ## Examen primer parcial
 - pe01_PrimerExamenParcial
+
+## Actvidad 11
+- p66_PromedioNumeros
+- p67_ConversionTemperaturas
+- p68_SumaRango
+- p69_TablaMultiplicar
+- p70_CalificacionLetra

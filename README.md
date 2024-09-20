@@ -107,3 +107,17 @@
 - p68_SumaRango
 - p69_TablaMultiplicar
 - p70_CalificacionLetra
+
+## Actividad 12
+- p71_MayorTresNumeros
+- p72_SumaDigitos
+- p73_SumaParesImpares
+- p74_Factorial
+- p75_CuadroCaracter 
+
+## Practica 6 
+- p76_NumeroMenor
+- p77_DiaSemana  
+- p78_MedidasLongitud  
+- p79_SumaMultiplos
+- p80_Angulo

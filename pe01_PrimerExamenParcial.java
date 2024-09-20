@@ -8,12 +8,10 @@ import java.util.Scanner;
 public class pe01_PrimerExamenParcial {
     public static void main(String[] args) {
         String nombre;
-        int edad, cont, contH, contM, a , z, y, fin;
-        int contA, contD, contT, contR;
-        int totH, totM, totA, totD, totT, totR,totp, prom;
-        char sexo, participante ,resp ;
+        int contA, contD, contT, contR,totH, totM, totA, totD, totT, totR,totp, prom,edad, cont, contH, contM, a , z, y, fin;
+        char sexo, participante ,resp;
         cont = 1;
-        edad= contH= contM= contA= contD= contT= contR= totH= totM= totA= totD= totT= totR=totp= prom= 0;
+        edad=contH=contM=contA=contD=contT=contR=totH=totM=totA=totD=totT=totR=totp=prom=0;
         Scanner obj = new Scanner(System.in);
         System.out.print("\033[H\033[2J"); System.out.flush();
 

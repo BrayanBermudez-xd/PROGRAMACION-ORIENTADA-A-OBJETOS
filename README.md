@@ -133,7 +133,13 @@
 - p86_ArregloMostrar
 - p87_ArregloTemperaturas
 - p88_Aleatorios
-- 
+
+## Practica 7
+- p90_Temperaturas
+- p91_MayoresPromedio
+- p92_MayorMenor
+- p93_ParesImpares 
+
 ## Actividad 15
 - p94_Empleado01
 - p95_Empleado02

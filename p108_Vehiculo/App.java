@@ -12,17 +12,18 @@ public class App {
     
 
         System.out.print("\033[H\033[2J"); System.out.flush();
+        System.out.println("__________________________________________________________________________________________");
         System.out.println(compa1);
         System.out.println(compa2);
         System.out.println(cam1);
         System.out.println(cam2);
-
+        System.out.println("-----------------------------------------------------------------------------------------");
         System.out.println("Calculando el total de precio de todos los veichulos ");
         System.out.println(compa1.getPrecio());
         System.out.println(compa2.getPrecio());
         System.out.println(cam1.getPrecio());
         System.out.println(cam2.getPrecio());
-
+        System.out.println("-----------------------------------------------------------------------------------------");
         System.out.println("La suma total de precios es de " + (compa1.getPrecio() + compa2.getPrecio() + cam1.getPrecio() + cam2.getPrecio()));
 
     }

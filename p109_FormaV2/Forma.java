@@ -4,6 +4,7 @@ public abstract class Forma {
     private String Color;
     private boolean relleno;
 
+    
     public Forma() {}
 
     public Forma(String color, boolean relleno) {

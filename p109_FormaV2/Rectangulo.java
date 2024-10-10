@@ -3,6 +3,7 @@ package p109_FormaV2;
 public class Rectangulo extends Forma {
     private double Largo;
     private double Ancho;
+    
 
     public Rectangulo() {}
     public Rectangulo(String color,boolean relleno, double largo, double ancho) {

@@ -2,6 +2,7 @@ package p109_FormaV2;
 
 public class Circulo extends Forma {
     private double Radio;
+    
 
     public Circulo() {}
     public Circulo(String color,boolean relleno, double radio) {

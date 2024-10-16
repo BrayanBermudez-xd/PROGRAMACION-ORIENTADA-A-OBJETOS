@@ -176,3 +176,6 @@
 
 ## Practica 11 repaso
 - p112_ControlVentas
+
+## Examen segundo parcial xd
+- p113_SegundoExamenParcial

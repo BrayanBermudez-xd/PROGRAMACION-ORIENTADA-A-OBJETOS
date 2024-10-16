@@ -9,7 +9,7 @@ public class Cliente {
     private ArrayList<Venta> Ventas;
 
 
-    public Cliente(String nombre, String domicilio, String correo) {
+    public Cliente(String nombre, String domicilio, String correo) { //primero se ponen los constructores y despues van los metodos gets
         Ventas = new ArrayList<>();
         Nombre = nombre;
         Domicilio = domicilio;

@@ -4,6 +4,7 @@ public class CuentaDeAhorro extends CuentaBancaria {
 
     private double tasainteres;
 
+    
     public CuentaDeAhorro(double saldo, double tasainteres){ 
         super(saldo);
         this.tasainteres = tasainteres;

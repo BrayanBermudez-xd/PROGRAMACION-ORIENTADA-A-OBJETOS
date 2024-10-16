@@ -3,6 +3,7 @@ package p111_CuentaBancariaV2;
 public class CuentaDeCheques extends CuentaBancaria {
     private double sobregiro;
 
+    
     public CuentaDeCheques(double saldo, double sobregiro){
     super(saldo);
     this.sobregiro = sobregiro;

@@ -19,6 +19,7 @@ public class App {
         System.out.println("\n>>> Los clientes del banco son:\n");
         mibanco.reporte();
 
+        
         ///Agregamos cuentas de diferentes tipos de cuentas a los clientes del banco
         mibanco.getClientes().get(0).agregarCuenta(new CuentaDeAhorro(1000, 0.10));
         mibanco.getClientes().get(0).agregarCuenta(new CuentaDeAhorro(1000, 0.20));

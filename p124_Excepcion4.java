@@ -16,9 +16,13 @@ public class p124_Excepcion4 {
             int c = a/b;
             System.out.println(" el resultado de la division es " + c);
             
-        } catch (InputMismatchException| ArithmeticException e) {
+        } catch (InputMismatchException e) {
             System.out.println("tanto el numerador como el denominador deben ser numeros");
+        } catch (ArithmeticException e){
             System.out.println("NO se pude dividir entre 0");
+
+        } finally {
+            System.out.println("holaaaaaaaaaaaaaaaa xd ");
         }
 
     }

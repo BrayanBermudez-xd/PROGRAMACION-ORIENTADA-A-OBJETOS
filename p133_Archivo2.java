@@ -4,7 +4,7 @@ import java.io.FileWriter;
 public class p133_Archivo2 {
     public static void main(String[] args) {
         String[] nombres = { "Juan", "Pedro", "Luis", "Jose", "Reynaldo", "Maria", "Teresa", "Rocio" };
-        File arch = new File("nombres.txt");
+        File arch = new File("name.txt");
         if(arch.exists())
 
         System.out.println("El archivo ya existe !");

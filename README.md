@@ -217,3 +217,8 @@
 
 ## Practica 14 
 - p137_ArchivoMunicipios
+- p138_ArchivoMaterias
+- p139_ArchivoEstudiante
+
+## Actividad 24
+- 140_HolaMundoGUI

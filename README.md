@@ -222,3 +222,7 @@
 
 ## Actividad 24
 - 140_HolaMundoGUI
+
+## Practica 15
+- p143_PagaTrabjador
+- p144_Temperaturas

@@ -9,8 +9,6 @@ public class Jugador implements Serializable{
     private String estadoCivil;
     private String descripcion;
     private double salario;
-    
-    public Jugador() {}
 
     public Jugador(String nombre, int edad, char sexo, String estadoCivil, String descripcion, double salario) {
         this.nombre = nombre;
@@ -20,7 +18,9 @@ public class Jugador implements Serializable{
         this.descripcion = descripcion;
         this.salario = salario;
     }
+    public Jugador() {}
 
+   
     public String getNombre() {
         return nombre;
     }
@@ -69,11 +69,7 @@ public class Jugador implements Serializable{
         this.salario = salario;
     }
 
-    @Override
-    public String toString() {
-        return "Jugador [nombre=" + nombre + ", edad=" + edad + ", sexo=" + sexo + ", estadoCivil=" + estadoCivil
-                + ", descripcion=" + descripcion + ", salario=" + salario + "]";
-    }
+    
 
     
 

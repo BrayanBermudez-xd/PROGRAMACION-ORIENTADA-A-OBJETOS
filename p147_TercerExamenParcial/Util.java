@@ -10,9 +10,7 @@ import java.util.ArrayList;
 public class Util {
     public static ArrayList<Jugador> inicializarDatos() {
         ArrayList<Jugador> datos = new ArrayList<>();
-        datos.add(new Jugador());
-        datos.add(new Jugador());
-        datos.add(new Jugador());
+        datos.add(new Jugador("juan", 22, 'H',"casado","es rico", 3250.0));
         return datos;
 
     }
